@@ -1,0 +1,14 @@
+clarifai_grpc==10.1.1
+diffusers==0.26.2
+Django==5.0.2
+Flask==3.0.2
+flask_ngrok==0.0.25
+fuzzywuzzy==0.18.0
+huggingface_hub==0.20.3
+ipython==8.21.0
+Pillow==10.2.0
+Requests==2.31.0
+sounddevice==0.4.6
+torch==2.2.0
+ultralytics==8.1.10
+vtracer==0.6.10

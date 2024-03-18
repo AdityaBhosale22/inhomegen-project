@@ -1,0 +1,31 @@
+{% extends 'inhome_app/base.html' %} {% block title %}inHomeGen | View Projects{% endblock %}
+<div>{% block content %} {% load static %}</div>
+
+  <!-- Add / Select Project -->
+  <section class="mt-24 text-gray-300 mb-10">
+      <div class="grid grid-cols-4 gap-4 mx-10">
+
+      
+
+        {% if imgData %}
+          {% for projData in imgData %}
+          
+              <!-- Node Card Starts -->
+              <a href="/dashboard_v2/{{projData}}" class="hover:bg-yellow-800 hover:text-black border shadow rounded-xl p-10">
+                <div class="">
+                  <div class="text-center text-2xl mb-6 font-bold my-20">{{ projData | title }}</div>
+                </div>
+                
+                
+              </a>
+              <!-- Node Card Ends -->
+              
+          {% endfor %}
+        {% endif %}
+              
+              <!-- <div class="text-gray-400 text-center text-2xl mb-6 font-bold">{{ viewJson }}</div> -->
+
+      </div>
+  </section>
+
+{% endblock %}

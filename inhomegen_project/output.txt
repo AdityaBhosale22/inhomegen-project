@@ -1,0 +1,9 @@
+WARNING ⚠️ 'source' is missing. Using 'source=C:\Users\91940\AppData\Local\Programs\Python\Python312\Lib\site-packages\ultralytics\assets'.
+Ultralytics YOLOv8.1.10 🚀 Python-3.12.0 torch-2.2.0+cpu CPU (AMD Ryzen 7 5800H with Radeon Graphics)
+YOLOv8n summary (fused): 168 layers, 3151904 parameters, 0 gradients
+
+image 1/2 C:\Users\91940\AppData\Local\Programs\Python\Python312\Lib\site-packages\ultralytics\assets\bus.jpg: 640x480 4 persons, 1 bus, 1 stop sign, 125.1ms
+image 2/2 C:\Users\91940\AppData\Local\Programs\Python\Python312\Lib\site-packages\ultralytics\assets\zidane.jpg: 384x640 2 persons, 1 tie, 85.3ms
+Speed: 4.6ms preprocess, 105.2ms inference, 0.0ms postprocess per image at shape (1, 3, 384, 640)
+Results saved to [1mruns\detect\predict13[0m
+💡 Learn more at https://docs.ultralytics.com/modes/predict
